@@ -6,8 +6,6 @@
 APM is acronym from  Application Performance Management but some people maybe familiar with Application Performance Monitoring, it’s okay because only little bit  difference between them. Monitoring is a term used when you are collecting data and presenting it to the end user. Management is when you have the ability to take action on your monitored systems such as restarting, change configuration, etc. Back to the topic,  on the Cloud Native era, an application cluster maybe have dozens (or maybe hundred) pods, its hard to monitor and get visibility manually, so the main idea of APM tools is getting visibility and availability of our applications in real time, easily and less effort.
 
 
-- ✨Magic ✨
-
 ## Why APM is Important
 1. **Make sure availability of our applications is up and running well** 
 Using APM, we can monitor our application is running well or not easily. A standard feature of APM is notification, we can set up a notification with basic or custom parameters. When something bad happen on our application or maybe our application not running well, APM will send us notification (maybe email, push notification, etc) as soon as possible.
@@ -41,7 +39,7 @@ Before we choose to buy or build APM, we need to know how its support works? how
 
 ## Prometheus and Grafana
 
-You can follow this tutorial to build your own APM using prometheus and grafana [Prometehus](https://nodejs.org/)
+You can follow this tutorial to build your own APM using prometheus and grafana [Prometehus](https://github.com/iimnurd/apm-prometheus/blob/master/Prometheus.md)
 
 
 
