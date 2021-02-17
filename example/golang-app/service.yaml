@@ -1,0 +1,33 @@
+#backend-service.yaml
+
+apiVersion: v1
+
+kind: Service
+
+metadata:
+
+  name: backend-svc
+
+  labels:
+
+    app: backend
+
+    release: prometheus
+
+spec:
+
+  ports:
+
+name: go-backend
+
+      port: 8080
+
+      targetPort: 8080
+
+      protocol: TCP
+
+  selector:
+
+      app: backend
+
+
